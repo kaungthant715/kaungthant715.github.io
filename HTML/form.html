@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="request.php" method="get">
+        <label for="name">Name</label>
+        <input type="text" name="stu_name" id="Name">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="Email" name="stu_email" id="email">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="Number" name="stu_phone" id="phone">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password">
+        <br><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="stu_dob" id="dob">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept=".pdf,.jpg,.png" name="stu_password" id="passport">
+        <br><br>
+        <label for="year">Years</label>
+        <select name="stu_Year" id="year">
+            <option value="">Choose Your Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+        </select>
+        <br><br>
+        <label for="Gender"></label>
+        <br><br>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+        <br><br>
+        <input type="checkbox" name="gaming" id="gaming" value="gaming"><label for="gaming">Gaming</label>
+        <input type="checkbox" name="reading" id="reading" value="reading"><label for="reading">Reading</label>
+        <input type="swimming" name="swimming" id="swimming" value="swimming"><label for="swimming">Swimming</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_address" id="address" rows="10" cols="50"></textarea>
+        <br><br>
+        <iframe src="headhtml" frameborder="1" rows="500%"></iframe>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
